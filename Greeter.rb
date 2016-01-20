@@ -6,8 +6,10 @@ class Greeter
     puts "Hi #{@name}!"
   end
   def say_bye
-    puts "Bye #{@name}"
+    puts "Bye #{@name}, I love you."
   end
 end
 
-    
+greeter = Greeter.new("India")
+greeter.say_hi
+greeter.say_bye
