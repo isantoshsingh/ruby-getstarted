@@ -1,16 +1,16 @@
-if /seara/ === "coursera"
+if /santosh/ === "isantoshsingh"
   puts "Triple Equals"
 else
   puts 'false'
 end
 # => Triple Equals
 
-if "coursera" === "coursera"
+if "santosh" === "santosh"
   puts "also works"
 end
 # => also works
 
-if Integer === 21
-  puts "21 is an Integer"
+if Integer === 23
+  puts "23 is an Integer"
 end
-# => 21 is an Integer
+# => 23 is an Integer
